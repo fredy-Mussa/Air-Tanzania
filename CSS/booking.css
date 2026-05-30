@@ -1,0 +1,100 @@
+:root{
+    --bg-color: #ecf0f3;
+    --bottom-right-shadow: #1e1f22;
+    --top-left-shadow:#ffffff;
+}
+body{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: var(--bg-color);
+    text-align: center;
+    margin-bottom: 30px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    background-color: #0077b6;
+    color: white;
+    box-shadow: 6px 6px 12px lightgray, -6px -6px 12px black;
+}
+.logo-name{
+    font-size: 30px;
+    -webkit-text-stroke: 2px black;
+}
+.navigation-links{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    font-size: large;
+}
+.navigation-links a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    -webkit-text-stroke: 1px wheat;
+}
+.form-section{
+    background-color: var(--bg-color);
+    margin: auto;
+    width: fit-content;
+    padding: 20px;
+    box-shadow: 4px 9px 10px rgba(0, 0, 0, 0.4);
+}
+.input-section1, .input-section2{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-bottom: 30px;
+    left: 0;
+}
+input, button{
+    font-family: 'Lucida Sans';
+    font-size: larger;
+    border-radius: 10px;
+    border: none;
+    width: 350px;
+    height: 45px;
+    background-color: var(--bg-color);
+    box-shadow:   3px 6px 12px var(--bottom-right-shadow),
+                 -5px -6px 12px var(--top-left-shadow);
+}
+button{
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+.flight-card{
+    background-color: lightblue;
+    width: 300px;
+    margin: auto;
+    animation: float 6s ease-in-out infinite;
+    box-shadow:   3px 6px 12px var(--bottom-right-shadow),
+                 -5px -6px 12px var(--top-left-shadow);
+}
+@keyframes float {
+    0% {
+        transform: translateX(0px);
+    }
+    50% {
+        transform: translateX(-10px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+footer{
+    background: lightblue;
+    color: #0c0c0c;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+}
+footer p{
+    font-weight: bold;
+    font-size: large;
+    margin-top: 0;
+}
