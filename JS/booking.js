@@ -32,3 +32,28 @@ confirmButton.addEventListener("click", function confirmBooking(){
     alert("Booking successfully");
     window.location.href = "dashboard.html";
 });
+// CREATE SEAT MAP NEW
+function generateSeats() {
+    const seatMap = document.getElementById("seatMap");
+    if (!seatMap){
+        return;
+  } 
+  seatMap.innerHTML = "";
+
+  for (let i = 1; i <= 20; i++) {
+    let seat = document.createElement("button");
+    seat.innerText = i;
+    seat.classList.add("seat");
+    
+    seat.onclick = () => {
+      selectedSeat = i;
+      document.getElementById("selectedSeat").innerText =
+        "Selected Seat: " + i;
+    };
+    seatMap.appendChild(seat);
+  }
+}
+// Running only on booking page
+if (window.location.pathname.includes("booking.html")) {
+  generateSeats();
+}
