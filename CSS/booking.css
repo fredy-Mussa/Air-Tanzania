@@ -35,11 +35,45 @@ header{
     -webkit-text-stroke: 1px wheat;
 }
 .form-section{
+    display: flex;
+    flex-direction: column;
     background-color: var(--bg-color);
     margin: auto;
     width: fit-content;
     padding: 20px;
     box-shadow: 4px 9px 10px rgba(0, 0, 0, 0.4);
+}
+#seatMap {
+    display: grid;
+    width: fit-content;
+    margin: auto;
+    grid-template-columns: repeat(5, 120px); /*repeat 5 columns to each rows with column space of 12px*/
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+.seat{
+    padding: 10px;
+    border: 1px solid #0077b6;
+    background: white;
+    cursor: pointer;
+    color: red;
+    left: 0;
+    transition: 5s;
+    width: 200px;
+    margin-bottom: 20px;
+}
+.seat:hover {
+    background: #90e0ef;
+    transform: scale(1.04);
+    color: white;
+}
+#selectedSeat{
+    color: blue;
+    font-size: 20px;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 14px;
 }
 .input-section1, .input-section2{
     display: flex;
