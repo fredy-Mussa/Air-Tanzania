@@ -15,6 +15,8 @@ function loadBookings(){
         <p>Name: ${b.name}</p>
         <p>Phone: ${b.phone}</p>
         <p>Email: ${b.email}</p>
+        <p>Seat: ${b.seat}</p>
+        <div id="qr-${b.id}"></div>
         <button onclick = "deleteBooking(${b.id})"> Delete</button>
         </div>
         `;
