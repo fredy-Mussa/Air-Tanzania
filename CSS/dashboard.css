@@ -18,7 +18,7 @@ header{
     box-shadow: 6px 6px 12px lightgray, -6px -6px 12px black;
 }
 .logo-name{
-    font-size: 30px;
+    font-size: 20px;
     -webkit-text-stroke: 2px black;
 }
 .navigation-links{
@@ -29,12 +29,12 @@ header{
 }
 .navigation-links a{
     text-decoration: none;
-    font-size: 20px;
+    font-size: 12px;
     color: white;
     -webkit-text-stroke: 1px wheat;
 }
 .booking-title{
-    font-size: 30px;
+    font-size: 18px;
     color: #023e8a;
     -webkit-text-stroke: 1px black;
     text-align: center;
