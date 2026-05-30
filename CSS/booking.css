@@ -24,7 +24,8 @@ header{
 }
 .logo-name{
     font-size: 20px;
-    -webkit-text-stroke: 2px black;
+    color: black;
+    font-weight: bold;
 }
 .navigation-links{
     display: flex;
