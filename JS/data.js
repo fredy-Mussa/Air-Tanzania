@@ -73,7 +73,7 @@ function bookFlight(id){
     //Save temporarily
     localStorage.setItem("selectedFlight", JSON.stringify(selectedFlight));
     //navigate to the booking page
-    window.location.href = "booking.html";
+    window.location.href = "HTML_FILES/booking.html";
 }
 //LOAD ALL FLIGHTS ON START
 displayFlights(flights);
