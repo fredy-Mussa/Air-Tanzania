@@ -17,6 +17,10 @@ header{
     color: white;
     box-shadow: 6px 6px 12px lightgray, -6px -6px 12px black;
 }
+.logo{
+    display: flex;
+    flex-direction: row;
+}
 .logo-name{
     font-size: 20px;
     -webkit-text-stroke: 2px black;
