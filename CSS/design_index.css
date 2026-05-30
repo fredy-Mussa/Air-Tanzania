@@ -12,17 +12,19 @@ body{
 header{
     display: flex;
     justify-content: space-between;
-    left: 0;
-    right: 0;
-    top: 0;
     padding: 15px 30px;
     background-color: #0077b6;
     color: white;
     box-shadow: 6px 6px 12px lightgray, -6px -6px 12px black;
 }
+.logo{
+    display: flex;
+    flex-direction: row;
+}
 .logo-name{
-    font-size: 30px;
-    -webkit-text-stroke: 2px black;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
 }
 .navigation-links{
     display: flex;
@@ -32,7 +34,7 @@ header{
 }
 .navigation-links a{
     text-decoration: none;
-    font-size: 20px;
+    font-size: 12px;
     color: white;
     -webkit-text-stroke: 1px wheat;
 }
