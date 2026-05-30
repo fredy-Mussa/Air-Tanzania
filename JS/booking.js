@@ -26,13 +26,15 @@ confirmButton.addEventListener("click", function confirmBooking(){
         return;
     }
     let bookings = JSON.parse(localStorage.getItem("bookings")) || [];
-    const newBooking ={id: Date.now(), flight: selectedFlight, name, phone, email};
+    const newBooking ={id: Date.now(), flight: selectedFlight,seat: selectedSeat, name, phone, email};
     bookings.push(newBooking);
     localStorage.setItem("bookings", JSON.stringify(bookings));
     alert("Booking successfully");
     window.location.href = "dashboard.html";
 });
+
 // CREATE SEAT MAP NEW
+let selectedSeat = null;
 function generateSeats() {
     const seatMap = document.getElementById("seatMap");
     if (!seatMap){
