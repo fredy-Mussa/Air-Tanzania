@@ -18,8 +18,12 @@ header{
     color: white;
     box-shadow: 6px 6px 12px lightgray, -6px -6px 12px black;
 }
+.logo{
+    display: flex;
+    flex-direction: row;
+}
 .logo-name{
-    font-size: 30px;
+    font-size: 20px;
     -webkit-text-stroke: 2px black;
 }
 .navigation-links{
@@ -31,7 +35,7 @@ header{
 .navigation-links a{
     text-decoration: none;
     color: white;
-    font-size: 20px;
+    font-size: 12px;
     -webkit-text-stroke: 1px wheat;
 }
 .form-section{
