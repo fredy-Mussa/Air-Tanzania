@@ -10,6 +10,7 @@ body{
     margin-bottom: 30px;
 }
 header{
+    width: 100%;
     display: flex;
     justify-content: space-between;
     padding: 15px 30px;
@@ -39,6 +40,7 @@ header{
     -webkit-text-stroke: 1px wheat;
 }
 .main-section{
+    position: relative;
     width: 100%;
     text-align: center;
     padding: 50px 20px;
@@ -60,11 +62,10 @@ header{
     margin: auto;
 }
 #clock{
-    top: 80px;
+    top: 0;
     right: 0;
-    position: fixed;
-    width: 200px;
-    height: 80px;
+    position: absolute;
+    width: fit-content;
 }
 .search-box input{
     padding: 10px;
