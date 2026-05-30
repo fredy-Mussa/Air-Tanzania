@@ -39,6 +39,7 @@ header{
     -webkit-text-stroke: 1px wheat;
 }
 .main-section{
+    width: 100%;
     text-align: center;
     padding: 50px 20px;
     color: black;
@@ -111,8 +112,9 @@ header{
 }
 .slide-show{
     overflow: hidden;
-    width: 700px;
-    height: 300px;
+    position: relative;
+    width: 400px;
+    height: 200px;
     margin: auto;
     border-bottom-left-radius: 150px;
     border-top-left-radius: 150px;
