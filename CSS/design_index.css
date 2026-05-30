@@ -12,6 +12,9 @@ body{
 header{
     display: flex;
     justify-content: space-between;
+    left: 0;
+    right: 0;
+    top: 0;
     padding: 15px 30px;
     background-color: #0077b6;
     color: white;
@@ -46,6 +49,12 @@ header{
 }
 .search-box{
     margin-top: 20px;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: fit-content;
+    margin: auto;
 }
 #clock{
     top: 80px;
@@ -79,7 +88,9 @@ header{
 .flight-card{
     background: white;
     padding: 15px;
-    margin: 10px 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
     border-radius: 8px;
     box-shadow: 4px 9px 10px rgba(0, 0, 0, 0.4);
     animation: float 6s ease-in-out infinite;
