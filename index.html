@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Air Ticket Tanzania-Home</title>
+        <meta name="description" content="Official website developed by Mr Fredy samson mussa a student at Mzumbe university">
+        <meta name="author" content="Mr Fredy samson mussa">
+        <meta name="robots" content="index, follow">
+        <!--<link rel="canonical" href="https://kadefue.github.io/"> -->
+
+        <link rel="stylesheet" href="CSS/design_index.css">
+        <link rel="icon" type="image/png" href="IMAGES/AirTz-logo.jpeg">
+    </head>
+    <body>
+        <!--HEADER SECTION-->
+        <header>
+            <div class="logo"><img src="IMAGES/AirTz-logo.jpeg" width="60px" height="60px"><span class="logo-name">Air Ticket Tanzania</span></div>
+            <nav class="navigation-links">
+                <a href="HTML_FILES/booking.html">Booking</a>
+                <a href="HTML_FILES/dashboard.html">My Bookings</a>
+            </nav>
+        </header>
+
+        <!--Design structure using division tag-->
+        <div class ="box1"></div>
+        <div class ="box2"></div>
+        <div class ="box3"></div>
+        <div class ="box4"></div>
+        <!--MAIN SECTION-->
+        <section class="main-section">
+            <h1 class="heading">Book Your Flight Easily</h1>
+            <!--SLIDE SHOW HTML STRUCTURE-->
+            <div class="slide-show">
+                <img src="IMAGES/fly.jpeg" class="active">
+                <img src="IMAGES/flying.jpeg">
+                <img src="IMAGES/pass.jpeg">
+                <img src="IMAGES/passenger.jpeg">
+                <img src="IMAGES/sits.jpeg">
+                <img src="IMAGES/starting.jpeg">
+                <img src="IMAGES/welcome.jpeg">
+                <img src="IMAGES/wonders.jpeg">
+            </div>
+            <p>Search and Book Flights in seconds</p>
+            <!--LIVE CLOCK HTML STRUCTURE-->
+            <div id = "clock">
+                <h2>00:00:00</h2>
+            </div>
+            <div class="search-box">
+                <input type="text" id="from" placeholder="From (e.g. Dar es salaam)">
+                <input type="text" id="to" placeholder="To (e.g. Norway)">
+                <button onclick="searchFlights()">Search</button>
+            </div>
+        </section>
+
+        <!--FLIGHT RESULT-->
+        <section class="results">
+            <h2>Available Flights</h2>
+            <div id="flightList"></div>
+        </section>
+        <script src="JS/data.js"></script>
+        <!--FOOTER-->
+        <footer>
+            <p>Copyright &copy; 2026 Air Tanzania. All rights reserved</p>
+        </footer>
+    </body>
+</html>
