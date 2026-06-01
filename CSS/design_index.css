@@ -134,7 +134,7 @@ header{
     position: absolute;
     top: 50px;
     left: -50px;
-    font-size: 40px;
+    font-size: 65px;
     animation: fly 10s linear infinite;
 }
 @keyframes fly{
@@ -144,12 +144,6 @@ header{
     to{
         left: 110%;
     }
-}
-.fa-plane{
-    background: linear-gradient(90deg , blue, white);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
 }
 footer{
     background: lightblue;
