@@ -40,6 +40,12 @@ header{
     font-size: 12px;
     -webkit-text-stroke: 1px wheat;
 }
+.book-section{
+   font-size: small;
+   font-family: 'Times New Roman', Times, serif;
+   margin: auto;
+   width: fit-content;
+}
 .form-section{
     display: flex;
     flex-direction: column;
