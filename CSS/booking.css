@@ -48,6 +48,7 @@ header{
 }
 .combined-input-section{
     margin: auto;
+    width: 100%;
 }
 .form-section{
     display: flex;
