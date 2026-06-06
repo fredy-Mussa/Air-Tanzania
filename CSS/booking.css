@@ -63,7 +63,7 @@ header{
     display: grid;
     width: 100%;
     margin: auto;
-    grid-template-columns: repeat(4, 12px); /*repeat 5 columns to each rows with column space of 12px*/
+    grid-template-columns: repeat(4, 120px); /*repeat 5 columns to each rows with column space of 12px*/
     align-items: center;
     justify-content: center;
     margin: 20px 0;
