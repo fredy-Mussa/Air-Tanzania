@@ -46,12 +46,15 @@ header{
    margin: auto;
    width: 100%;
 }
+.combined-input-section{
+    margin: auto;
+}
 .form-section{
     display: flex;
     flex-direction: column;
     background-color: var(--bg-color);
     margin: auto;
-    width: 100%;
+    width: fit-content;
     padding: 20px;
     box-shadow: 4px 9px 10px rgba(0, 0, 0, 0.4);
 }
@@ -59,7 +62,7 @@ header{
     display: grid;
     width: 100%;
     margin: auto;
-    grid-template-columns: repeat(5, 120px); /*repeat 5 columns to each rows with column space of 12px*/
+    grid-template-columns: repeat(4, 12px); /*repeat 5 columns to each rows with column space of 12px*/
     align-items: center;
     justify-content: center;
     margin: 20px 0;
