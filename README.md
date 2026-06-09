@@ -26,9 +26,41 @@ The platform allows users to browse available flights, book tickets, and manage 
 - CSS3
 - JavaScript
 
-## 📂 Project Structure
+## Project Structure
 
-
+```text
+Air-Travel-Booking-System/
+│
+├── index.html
+│
+├── CSS/
+│   ├── booking.css
+│   ├── desig-index.css
+│   └── dashboard.css
+│
+├── HTML-FILES/
+│   ├── booking.html
+│   └── dashboard.html
+│
+├── JS/
+│   ├── booking.js
+│   ├── data.js
+│   └── dashboard.js
+│
+├── IMAGES/
+│   ├── Air TZ-logo.jpeg
+│   ├── fly.jpeg
+│   ├── flying.jpeg
+│   ├── logo.jpeg
+│   ├── passenger.jpeg
+│   ├── welcome.jpeg
+│   ├── wonders.jpeg
+│   ├── sits.jpeg
+│   ├── starting.jpeg
+│   └── pass.jpeg
+│
+└── README.md
+```
 ## 🚀 Getting Started
 
 1. Clone the repository:
