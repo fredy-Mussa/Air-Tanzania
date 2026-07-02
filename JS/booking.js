@@ -18,7 +18,7 @@ if(window.location.pathname.includes("booking.html")){
 let confirmButton = document.getElementById("btn");
 confirmButton.addEventListener("click", function confirmBooking(){
     const name = document.getElementById("name").value;
-    const pnone = document.getElementById("phone").value;
+    const phone = document.getElementById("phone").value;
     const email = document.getElementById("email").value;
 
     if(!name || !phone || !email){
