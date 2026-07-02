@@ -26,7 +26,7 @@
         </header>
 
         <!--MAIN SECTION-->
-        <section class="main-section">
+        <div class="main-section">
             <h1 class="heading">Book Your Flight Easily</h1>
             <div class="plane-fly">🛬</div>
             <!--SLIDE SHOW HTML STRUCTURE-->
@@ -40,19 +40,17 @@
                 <img src="IMAGES/welcome.jpeg">
                 <img src="IMAGES/wonders.jpeg">
             </div>
-            <p>Search and Book Flights in seconds</p>
             <!--LIVE CLOCK HTML STRUCTURE-->
             <div id = "clock">
                 <h2>00:00:00</h2>
             </div>
+            <p>Search and Book Flights in seconds</p>
             <div class="search-box">
-                <div class="text-input">
-                    <input type="text" id="from" placeholder="From (e.g. Dar es salaam)">
-                <input type="text" id="to" placeholder="To (e.g. Norway)">
-                </div>
-                <button onclick="searchFlights()">Search</button>
+                <div><input type="text" id="from" placeholder="From (e.g. Dar es salaam)"></div>
+                <div><input type="text" id="to" placeholder="To (e.g. Norway)"></div>
+                <div><button onclick="searchFlights()">Search</button></div>
             </div>
-        </section>
+        </div>
 
         <!--FLIGHT RESULT-->
         <section class="results">
