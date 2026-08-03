@@ -39,7 +39,17 @@ const flights = [
         id: 3, from: "Mwanza", 
         to: "Arusha", time: "02:00 PM", 
         price: 150000
-    }
+    },
+     {
+        id: 4, from: "Mwanza", 
+        to: "Zanzibar", time: "03:00 PM", 
+        price: 200000
+     },
+       {
+        id: 5, from: "Norway", 
+        to: "Dar es Salaam", time: "08:00 AM", 
+        price: 1500000
+     }
 ];
 
 //DISPLAY FLIGHTS
