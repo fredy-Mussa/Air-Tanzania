@@ -39,6 +39,11 @@ const flights = [
         id: 3, from: "Mwanza", 
         to: "Arusha", time: "02:00 PM", 
         price: 150000
+    },
+    {
+        id: 4, from: "Dodoma",
+        to: "Mpanda", time: "03:00 PM",
+        price: 200000
     }
 ];
 
